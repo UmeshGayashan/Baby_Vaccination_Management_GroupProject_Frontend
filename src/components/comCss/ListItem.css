@@ -1,0 +1,369 @@
+.custom-button {
+  width: calc(100% - 20px); /* Adjust the width based on your needs */
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border: none;
+  background-color: var(--button-color);
+  color: var(--button-text-color);
+  cursor: pointer;
+}
+
+.home-v {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 100px; 
+  margin: 5px;
+}
+
+.up-arrow,
+.down-arrow {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-link-v {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  text-decoration: none;
+  color: blue;
+}
+
+.custom-button h3 {
+  margin-left: 0;
+  text-decoration: none;
+}
+
+.svg-icon {
+  height: 30px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-content {
+  padding: 20px;
+}
+
+.min-height59 {
+  width: 1px;
+  height: 24px;
+  position: relative;
+}
+
+.spacing-vertical31 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+}
+
+.spacer24 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 8px);
+  width: 100%;
+}
+
+.box175,
+.spacing-horizontal27 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.box175 {
+  align-self: stretch;
+  height: 40px;
+  flex-direction: row;
+}
+
+.min-height62 {
+  width: 1px;
+  height: 16px;
+  position: relative;
+}
+
+.spacing-vertical34 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+
+.starsharp-icon52 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.icon112,
+.left-content25 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.left-content25 {
+  flex-direction: column;
+  padding: 0 var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  min-width: 56px;
+}
+
+.list-item32 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 150%;
+}
+
+.secondary25 {
+  width: 132px;
+  position: relative;
+  font-size: var(--text-body-2-size);
+  letter-spacing: 0.17px;
+  line-height: 143%;
+  color: var(--text-secondary);
+  display: none;
+}
+
+.listitem-text25 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0;
+}
+
+.expandlessfilled-icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.icon113 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.container52,
+.right-action9 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.right-action9 {
+  height: 34px;
+  width: 34px;
+  border-radius: var(--br-81xl);
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-8xs);
+  box-sizing: border-box;
+}
+
+.container52 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+
+.divider-horizontal28,
+.listitem26 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.divider-horizontal28 {
+  width: 100%;
+  height: 1px;
+  margin: 0 !important;
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  left: 0;
+  display: none;
+  z-index: 1;
+}
+
+.listitem26 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  font-size: var(--paragraph-size);
+}
+
+.custom-expandable-nav-item9,
+.listitem31 {
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  position: relative;
+}
+
+.custom-expandable-nav-item10,
+.listitem31 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.custom-sidenav3,
+.listitem35,
+.ul3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.ul3 {
+  align-self: stretch;
+  padding: var(--padding-2xs) var(--padding-2xs);
+}
+
+.custom-sidenav3-2 {
+  height: 1500px;
+  width: 220px;
+  background-color: var(--background-paper-elevation-0);
+  box-shadow: var(--elevation-1);
+  min-width: 220px;
+}
+
+.custom-sidenav3 {
+  height: 1000px;
+  width: 220px;
+  background-color: var(--background-paper-elevation-0);
+  box-shadow: var(--elevation-1);
+  min-width: 220px;
+}
+
+.about-the-vaccine {
+  margin: 0;
+  position: relative;
+  font-size: var(--h2-size);
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--color-gray-100);
+  display: inline-block;
+  max-width: 100%;
+}
+
+.blank-line5,
+.et-morbi-vitae,
+.mauris-morbi-sed,
+.viverra-at-diam {
+  margin: 0;
+}
+
+.et-morbi-vitae-container {
+  width: 100%; /* Adjust width based on your layout */
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+  display: inline-block;
+}
+
+.unsplashcveoh-jjmee-icon2 {
+  margin-left: auto; /* Align to the right */
+  margin-right: auto; /* Align to the left */
+  align-self: stretch;
+  height: auto; /* Adjust height based on content */
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  width: 100%; /* Adjust width based on your layout */
+  margin-bottom: 50px;
+}
+
+.et-morbi-vitae1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+
+.about-the-vaccine-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 0;
+  max-width: 100%;
+}
+
+.frame-parent2,
+.list-item-inner,
+.list-item31 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.frame-parent2 {
+  width: 100%; /* Adjust width based on your layout */
+  align-self: stretch;
+  flex-direction: column;
+}
+
+.list-item-inner,
+.list-item31 {
+  box-sizing: border-box;
+}
+
+.list-item-inner {
+  flex: 1;
+  flex-direction: column;
+  padding: 2% 4%; /* Adjust padding based on your layout */
+  color: var(--secondary-text);
+  min-width: 0; /* Allow the element to shrink beyond its content width */
+  width: 100%; /* Ensure it takes up the full width */
+  max-width: 100%; /* Ensure it doesn't exceed the container width */
+}
+
+@media screen and (max-width: 768px) {
+  .list-item-inner {
+    padding: 4% 6%; /* Adjust padding based on your layout */
+  }
+}
